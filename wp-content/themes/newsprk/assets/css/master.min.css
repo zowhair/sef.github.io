@@ -18235,4 +18235,7 @@ article.post.layout-3 {
 }
 .company-name{
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
