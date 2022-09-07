@@ -18233,9 +18233,11 @@ article.post.layout-3 {
         top: 8px
     }
 }
-.company-name{
+.company-name h4{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    margin: 0px ;
+    font-size: medium;
 }
