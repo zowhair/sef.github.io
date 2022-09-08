@@ -3332,7 +3332,7 @@ input.cbt3:hover {
         box-shadow: none
     }
     .theme-1 .logo {
-        padding: 13px 0 25px;
+        padding: 14px 0 8px;
         text-align: center
     }
     .theme-1 .navbar-toggle {
@@ -14660,10 +14660,6 @@ a.up_btn {
     opacity: 1;
     bottom: 7%;
     transition: all .3s
-}
-
-.logo_area {
-    padding: 28px 0
 }
 
 .logo {
