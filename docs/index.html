@@ -851,16 +851,47 @@
 
         .logo2 {
             max-width: 45%;
+            margin-left: 50%;
         }
 
         @media screen and (max-width: 768px) {
-            .logo2 {
-                display: none;
-            }
+           
             .company-name{
                 display: none;
             }
+            .logo{
+                align-items: center !important;
+                width: 90%;
+            }
+            .logo2{
+                padding-top: 5%;
+            }
+            .logo_sec {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: nowrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+                    flex-direction: row;
+                }
         }
+        @media screen and (max-width: 1200px){
+           
+        .logo2 {
+            margin-left: 45%;
+          
+        } 
+       
+        }
+        @media screen and (max-width: 900px){
+           
+           .logo2 {
+               margin-left: 30%;
+           } 
+           }
+           
+        
 
         .page-id-7213 .single_twitter_feed h6 a,
         .page-id-7212 .single_twitter_feed h6 a,
@@ -1017,7 +1048,7 @@
     <!--::::: SEARCH FORM START:::::::-->
     <div class="searching">
         <div class="container">
-            <div class="row">
+            <div class="row logo_section">
                 <div class="col-12 col-md-8 text-center m-auto">
                     <div class="v1search_form">
 
@@ -1041,15 +1072,15 @@
         <!--::::: LOGO AREA AND BANNER START  :::::::-->
         <div class="logo_area">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3 align-self-center">
+                <div class="row logo_sec">
+                    <div class="col-md-3 col-sm-6 align-self-center ">
                         <div class="logo">
                             <a href="#" target="_blank">
                                 <img data-src="../sef_logo.svg" class="logo lazyload" src="../sef_logo.svg">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-7 align-self-center">
+                    <div class="col-md-7 lign-self-center">
 
                         <div class="company-name">
                             <h4>Sindh Education Foundation,
@@ -1060,7 +1091,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-2 align-self-center">
+                    <div class="col-md-2 col-sm-6 sef_logo">
                         <div class="logo2">
                             <a href="#" target="_blank">
                                 <img data-src="../sef_logo2.svg" class="lazyload" src="../sef_logo2.svg">
@@ -1077,7 +1108,7 @@
             <div class="main-nav clearfix  ">
                 <div class="container">
                     <div class="row justify-content-between">
-                        <nav class="navbar navbar-expand-lg col-lg-8 align-self-center">
+                        <nav class="navbar navbar-expand-lg col-lg-12 align-self-center">
                             <div class="site-nav-inner">
                                 <!--::::: mobile toggle  :::::::-->
                                 <button class="offcanvas__menu__open__trigger header__style__1"
@@ -1235,27 +1266,7 @@
                             </div>
                         </nav>
 
-                        <div class="col-lg-4 align-self-center">
-                            <div class="menu_right">
-
-                                <div class="users_area">
-                                    <ul class="inline">
-
-                                        <li class="search_btn">
-                                            <i class="fa fa-search"></i>
-                                        </li>
-
-
-                                        <li><a
-                                                href="../wp-login.php?redirect_to=https%3A%2F%2Fwp.quomodosoft.com%2Fnewsprk"><i
-                                                    class="fal fa-user-circle"></i></a></li>
-
-                                    </ul>
-                                </div>
-
-
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

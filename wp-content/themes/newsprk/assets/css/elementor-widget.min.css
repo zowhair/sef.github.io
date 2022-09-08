@@ -385,7 +385,7 @@ a.see_all {
 
 @media (max-width:767px) {
     .theme-1 .logo {
-        text-align: left
+        /* text-align: left */
     }
     .logo-title {
         padding-top: 10px
