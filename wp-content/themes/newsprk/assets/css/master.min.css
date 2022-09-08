@@ -12095,7 +12095,9 @@ body.bg4 {
 .theme-4 .logo_area {
     padding: 0
 }
-
+.logo_area {
+    padding: 28px 0;
+}
 .theme-4 .welcome_txt .title_meta {
     font-weight: 500;
     color: #fff;
