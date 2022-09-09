@@ -18232,10 +18232,20 @@ article.post.layout-3 {
     }
 }
 .company-name h4{
+    margin-top: 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: nowrap;
-    margin: 0px ;
+    /* margin: 3px; */
     font-size: medium;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    /* margin-left: 41px; */
+    word-spacing: 1px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    color: #2d2e2d;
 }
