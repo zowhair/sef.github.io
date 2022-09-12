@@ -2508,9 +2508,11 @@ input.cbt3:hover {
 }
 
 .theme-1 .main-nav {
-    background: #fff;
+    background:#e9ede9;
     min-height: 50px;
     box-shadow: 0 3px 7px 0 #f8f8fb
+    
+   
 }
 
 .theme-1 .navbar {
